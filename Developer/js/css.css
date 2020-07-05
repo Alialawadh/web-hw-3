@@ -1,0 +1,35 @@
+body {
+  background-color: skyblue;
+}
+
+.cal {
+  background-color: rgb(212, 179, 179);
+  color: lightslategrey;
+  margin: 20px;
+  text-align: center;
+}
+
+.fix {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.click {
+  color: lightslategrey;
+  background-color: rgb(212, 179, 179);
+  text-align: center;
+}
+
+.click:hover {
+  background-color: rgb(203, 224, 143);
+}
+
+.cal:hover {
+  background-color: rgb(203, 224, 143);
+}
+
+.par {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+}

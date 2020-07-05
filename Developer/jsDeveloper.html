@@ -2,55 +2,69 @@
 
 <!-- HTMLبصفحتك ال scripts.js قم بربط ملف -->
 <html>
-<head>
-     <title>hm-3</title>
-     
-</head>
-<body>
-      
-     <h1>
-          اهلا بك في الواجب الثالث
-     </h1>
+  <head>
+    <title>hm-3</title>
+    <link rel="stylesheet" href="./js/css.css" />
+  </head>
+  <body>
+    <h1 align="center">
+      اهلا بك في الواجب الثالث
+    </h1>
 
-     <form method="post">
-       <label>name</label>
-       <input id="name" type="text" placeholder = "name/الاسم" />
-       
-       <label>age</label>
-       <input id="age" type="text" placeholder = "age/العمر" />
-       
-       <label>experince</label>
-       <input id="experince" type="text" placeholder = "experince/الخبره" />
+    <br />
 
-       <label>programming language/ لغه البرمجه</label>
-       <input id="PL" type="text" placeholder = "programming language/ لغه البرمجه" />
-      
+    <div>
+      <form method="post">
+        <label class="fix">name</label>
+        <input id="name" type="text" placeholder="name/الاسم" />
 
-       <label> another programming language/ لغه البرمجه اخرى</label>
-       <input id="PL2" type="text" placeholder = "another programming language/ لغه البرمجه اخرى" />
+        <label class="fix">age</label>
+        <input id="age" type="text" placeholder="age/العمر" />
 
+        <label class="fix">experince</label>
+        <input id="experince" type="text" placeholder="experince/الخبره" />
 
-       <h1 onclick="callName()">click me</h1>
-     </form>
+        <label class="fix">programming language/ لغه البرمجه</label>
+        <input
+          id="PL"
+          type="text"
+          placeholder="programming language/ لغه البرمجه"
+        />
 
+        <label class="fix">
+          another programming language/ لغه البرمجه اخرى</label
+        >
+        <input
+          id="PL2"
+          type="text"
+          placeholder="another programming language/ لغه البرمجه اخرى"
+        />
 
+        <h1 onclick="callName()" class="click">
+          click me and see the result in the console
+        </h1>
+      </form>
+    </div>
 
-     
+    <label class="fix">quizes grade</label>
+    <input id="PL3" type="text" placeholder="quizes" />
 
+    <label class="fix">midterm grade</label>
+    <input id="PL4" type="text" placeholder="midterm" />
 
+    <label class="fix">final test grade</label>
+    <input id="PL5" type="text" placeholder="final test" />
 
+    <label class="fix">oral grade</label>
+    <input id="PL6" type="text" placeholder="oral" />
 
-
-
-
-
-
-
-
-
-
-     <script src ="js/scripts.js"></script>
-</body>
+    <button onclick="mis3()">calculate</button>
+    <p class="par">this is your numeric grade</p>
+    <h1 id="calbutton" class="cal">calculate</h1>
+    <p class="par">this is your letter grade</p>
+    <h1 id="letter" align="center" class="cal">.</h1>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
 <!-- المهام -->
 
